@@ -23,5 +23,10 @@ def registration():
             flash('Registration successful!', 'success')
             return redirect(url_for('authentication.dashboard'))
     return render_template('registration.html', form=form)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a8617b63634cbce27e18e5465c9d2c62a26fa432
 
 
